@@ -1,32 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<panorama appversion="7.0.4" apprev="19982" id="node1">
-  <input levelbias="0.400" width="1536" height="1536" leveltilesize="510" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" levelingpitch="0">
-    <level preload="0" width="1536" height="1536" predecode="0"/>
-    <level preload="0" width="768" height="768" predecode="0"/>
-    <level preload="1" width="384" height="384" predecode="1"/>
+<panorama apprev="19982" hideabout="1" id="node1" appversion="7.0.4">
+  <input levelbias="0.400" levelingpitch="0" levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1536" overlap="1" leveltilesize="510" levelingroll="0" width="1536">
+    <level predecode="0" height="1536" preload="0" width="1536"/>
+    <level predecode="0" height="768" preload="0" width="768"/>
+    <level predecode="1" height="384" preload="1" width="384"/>
     <preview color="0x808080" strip="1"/>
   </input>
   <view fovmode="2" pannorth="0">
-    <start pan="0" projection="4" tilt="0" fov="100"/>
-    <flyin pan="0" projection="9" tilt="-90" fov="170"/>
-    <min pan="0" tilt="-90" fovpixel="2"/>
-    <max pan="360" tilt="90" fov="140" fovstereographic="330" fovfisheye="360" scaletofit="1"/>
+    <start fov="100" projection="4" tilt="0" pan="0"/>
+    <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+    <min fovpixel="2" tilt="-90" pan="0"/>
+    <max fovfisheye="360" fovstereographic="330" fov="140" scaletofit="1" tilt="90" pan="360"/>
   </view>
-  <userdata datetime="" tags="Desktop" heading="0" info="" longitude="" description="" latitude="" comment="" copyright="" title="" nodeid="node1" customnodeid="" source="" author=""/>
-  <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
-    <label bordercolor="0x000000" width="180" height="20" textcolor="0x000000" background="1" backgroundcolor="0xffffff" enabled="1" backgroundalpha="1" textalpha="1" borderalpha="1" borderradius="1" wordwrap="1" border="1"/>
-    <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
-    <hotspot pan="-31.33" description="" skinid="ht_pdf" tilt="3.44" title="PDF" url="media/SPARK BIM PVT LTD PROFILE.pdf" target="" id="Point01"/>
-    <hotspot pan="-324.1" description="" skinid="ht_video_file" tilt="5.78" title="" url="media/Rac.mp4" target="" id="Point02"/>
-    <hotspot pan="-38.99" description="" skinid="ht_image" tilt="3.03" title="" url="images/synchro4D.jpg" target="" id="Point03"/>
-    <hotspot pan="-14.98" description="pelucqueria que poderia ser " skinid="ht_info" tilt="-5.08" title="TODO x 5 PESOS" url="" target="" id="Point04"/>
+  <userdata latitude="" source="" customnodeid="" longitude="" author="" info="" datetime="" comment="" nodeid="node1" tags="Desktop" heading="0" description="" title="" copyright=""/>
+  <hotspots width="180" height="20" wordwrap="1" smoothmovement="0">
+    <label enabled="1" wordwrap="1" textalpha="1" textcolor="0x000000" bordercolor="0x000000" border="1" backgroundcolor="0xffffff" borderalpha="1" borderradius="1" backgroundalpha="1" height="20" background="1" width="180"/>
+    <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff"/>
+    <hotspot id="Point01" skinid="ht_pdf" description="" url="media/SPARK BIM PVT LTD PROFILE.pdf" target="" tilt="3.52" title="PDF" pan="-31.33"/>
+    <hotspot id="Point02" skinid="ht_video_file" description="" url="media/Rac.mp4" target="" tilt="5.78" title="" pan="-324.1"/>
+    <hotspot id="Point03" skinid="ht_image" description="" url="images/synchro4D.jpg" target="" tilt="3.11" title="" pan="-38.99"/>
+    <hotspot id="Point04" skinid="ht_info" description="pelucqueria que poderia ser " url="" target="" tilt="-5.08" title="TODO x 5 PESOS" pan="-14.98"/>
   </hotspots>
   <media>
-    <webelement clickmode="0" code="&lt;iframe src=&quot;https://www.svisuals.com.br/&quot; name=&quot;SVisuals&quot; scrolling=&quot;auto&quot; width=&quot;1000px&quot; height=&quot;1000px&quot; style=&quot;border: solid #000000;&quot;>&lt;/iframe>&#xa;&#xa;" tilt="3.170" roty="0.000" rotz="0.000" stretch="1.000" width="1000" rotx="0.000" height="1000" hidepinned="0" handcursor="0" id="Element01" pan="-346.130" fov="30.000" popbackmode="0"/>
+    <webelement width="1000" popbackmode="0" stretch="1.000" rotz="0.000" handcursor="0" tilt="3.170" rotx="0.000" hidepinned="0" clickmode="0" fov="30.000" id="Element01" roty="0.000" height="1000" code="&lt;iframe src=&quot;https://en.svisuals.com.br/&quot; name=&quot;Google&quot; scrolling=&quot;auto&quot; width=&quot;1000px&quot; height=&quot;1000px&quot; style=&quot;border: solid #000000;&quot;>&lt;/iframe>&#xa;&#xa;" pan="-346.130"/>
+    <sound pansize="10.000" level="0.500" mode="0" tiltsize="10.000" tilt="-1.000" field="90.000" startmutedmobile="0" nodechangekeep="1" ambientlevel="0.000" id="_background" loop="100" pan="-1.000">
+      <source url="media/erf.mp3"/>
+    </sound>
   </media>
-  <transition type="crossdissolve" zoomin="0" delay="none" blendcolor="0x000000" zoomafteroutfov="40" zoomfov="40" zoomout="0" enabled="1" softedge="0" zoomafterinfov="140" zoomspeed="2" zoomoutpause="1" blendtime="1"/>
-  <animation clipsrandom="0" syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-  <control zoomcentercursor="1" simulatemass="1" speedwheel="1" contextvr="1" hideabout="0" rubberband="0" lockedmouse="0" dblclickfullscreen="0" lockedkeyboard="0" contextprojections="0" invertcontrol="1" invertwheel="0" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0"/>
+  <transition enabled="1" zoomin="0" zoomafteroutfov="40" blendtime="1" zoomafterinfov="140" zoomoutpause="1" blendcolor="0x000000" zoomout="0" zoomfov="40" type="crossdissolve" delay="none" softedge="0" zoomspeed="2"/>
+  <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0"/>
+  <control sensitivity="8" lockedkeyboard="0" rubberband="0" lockedmouse="0" contextvr="1" invertwheel="0" contextprojections="0" simulatemass="1" hideabout="1" contextfullscreen="1" lockedwheel="0" lockedkeyboardzoom="0" invertcontrol="1" dblclickfullscreen="0" speedwheel="1" zoomcentercursor="1"/>
   <vr toggleskinbutton="1"/>
-  <projectuserdata description="" comment="" copyright="" title="" tags="" author=""/>
+  <projectuserdata comment="" tags="" author="" description="" title="" copyright=""/>
 </panorama>
